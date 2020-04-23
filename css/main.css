@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 50px;
+  position: relative;
+  margin: 50px auto;
+}
+
+#choropleth {
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgb(174, 0, 255);
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+}
